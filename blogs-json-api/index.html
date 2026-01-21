@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Blog Pagination</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="app.js" defer></script>
+</head>
+<body class="bg-gray-100">
+
+<div class="container mx-auto p-6">
+  <!-- Total blogs -->
+  <p id="total-blogs" class="mb-4 text-lg font-semibold text-gray-700"></p>
+
+  <!-- Search input -->
+<input
+  id="search-input"
+  type="text"
+  placeholder="Search blogs..."
+  class="w-full mb-4 p-2 border rounded focus:outline-none"
+/>
+
+
+  <!-- Status -->
+  <p id="status" class="mb-2 text-gray-500"></p>
+
+  <!-- Blogs grid -->
+  <div id="blogs" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+
+  <!-- Pagination controls -->
+  <div class="flex flex-wrap justify-center items-center gap-2 my-6">
+
+    <button id="prev-btn" class="px-2 sm:px-3 py-1 bg-gray-300 rounded hover:bg-gray-400">Previous</button>
+    
+    <div id="page-numbers" class="flex flex-wrap gap-2 justify-center"></div>
+    
+    <button id="next-btn" class="px-2 sm:px-3 py-1 bg-gray-300 rounded hover:bg-gray-400">Next</button>
+  </div>
+</div>
+
+</body>
+</html>
