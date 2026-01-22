@@ -1,8 +1,8 @@
-# Products Page with TypeScript and JSON API
+# Products Page with JavaScript and JSON API
 
-This project is a dynamic products listing page built using JavaScript and TypeScript fundamentals. It fetches product data from a public JSON API and renders product cards in the browser using DOM manipulation and asynchronous logic.
+This project is a dynamic product listing page built using **core JavaScript fundamentals**. It fetches product data from a public JSON API and renders product cards in the browser using **DOM manipulation** and **asynchronous JavaScript**.
 
-The project focuses on understanding real-world frontend workflows without using any frameworks.
+The goal of this project is to understand real-world frontend workflows **without using any frameworks or libraries**.
 
 ---
 
@@ -10,21 +10,20 @@ The project focuses on understanding real-world frontend workflows without using
 
 - HTML5
 - JavaScript (ES6+)
-- TypeScript
 - Tailwind CSS (CDN)
-- JSON API
+- Public JSON API
 
 ---
 
 ## Features
 
 - Fetches product data from a public API
-- Uses async/await for asynchronous operations
+- Uses `async/await` for asynchronous operations
 - Displays a loading state while data is being fetched
-- Dynamically renders product cards using DOM manipulation
+- Dynamically renders product cards using pure DOM manipulation
 - Shows product title, price, stock, and rating
 - Clean and responsive layout using Tailwind CSS
-- Proper error handling for failed API requests
+- Basic error handling for failed API requests
 
 ---
 
@@ -33,8 +32,8 @@ The project focuses on understanding real-world frontend workflows without using
 - Fetch API
 - Async / Await
 - DOM manipulation
-- forEach loop for rendering product lists
-- TypeScript fundamentals
+- `forEach` loop for rendering product lists
+- JavaScript ES6+ syntax
 - Basic error handling
 
 ---
@@ -43,7 +42,6 @@ The project focuses on understanding real-world frontend workflows without using
 
 project-root/
 │── index.html
-│── script.ts
 │── script.js
 │── README.md
 
@@ -62,13 +60,13 @@ project-root/
 
 ## Purpose
 
-This project is built as a practice exercise to strengthen frontend fundamentals before moving to frameworks like React or Next.js. It demonstrates how APIs, async logic, and DOM rendering work together in real-world scenarios.
+This project was built as a **practice exercise** to strengthen JavaScript and frontend fundamentals before moving to frameworks like **React or Next.js**. It demonstrates how APIs, asynchronous logic, and DOM rendering work together in real-world scenarios using only vanilla JavaScript.
 
 ---
 
 ## Possible Improvements
 
-- Add pagination or load more functionality
+- Add pagination or “Load More” functionality
 - Improve UI and card layout
 - Add product images and categories
 - Implement search and filtering
@@ -78,5 +76,5 @@ This project is built as a practice exercise to strengthen frontend fundamentals
 
 ## Author
 
-Nasir Sarker  
+**Nasir Sarker**  
 Frontend Web Developer
